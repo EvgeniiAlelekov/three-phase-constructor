@@ -9,3 +9,7 @@
 * за первый конструктор отвечает Java
 * за второй конструктор (@PostConstruct) отвечает BeanPostProcessor
 * за третий конструктор (@AfterProxy) отвечает ContextListener
+
+   Во второй части рассказывается о работе BeanFactoryPostProcessor.
+* BeanFactoryPostProcessor позволяет настраивать бин дифиншны до того как создаются бины.
+* Этот интерфейс имеет один метод: postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory)

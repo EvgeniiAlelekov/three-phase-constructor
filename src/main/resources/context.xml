@@ -19,4 +19,7 @@
     <!-- profiling -->
     <bean class="com.example.terminator.quoters.ProfilingHandlerBeanPostProcessor"/>
 
+    <!-- profiling -->
+    <bean class="com.example.terminator.quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
+
 </beans>
